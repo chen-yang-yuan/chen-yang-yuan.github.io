@@ -24,6 +24,8 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
+	height: 100vh; /* Chenyang's edit */
+  	overflow-y: auto; /* Chenyang's edit */
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
@@ -96,7 +98,6 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
-	width: 100%; /* Chenyang's edit */
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -109,7 +110,6 @@ div#subtitle {
 	margin-bottom: 0.0em;
 	padding-top: 0em;
 	padding-bottom: 0.1em;
-	width: 100%; /* Chenyang's edit */
 }
 
 em {
@@ -129,18 +129,15 @@ h1, h2, h3 {
 	line-height: 1.0;
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
-	width: 100%; /* Chenyang's edit */
 }
 
 h1 {
 	font-size: 165%;
-	width: 100%; /* Chenyang's edit */
 }
 
 h2 {
 	padding-top: 0.8em;
 	font-size: 125%;
-	width: 100%; /* Chenyang's edit */
 }
 
 h2 + h3 {
@@ -150,7 +147,6 @@ h2 + h3 {
 h3 {
 	font-size: 110%;
 	border-bottom: none;
-	width: 100%; /* Chenyang's edit */
 }
 
 p {
