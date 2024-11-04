@@ -11,9 +11,9 @@ body {
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
-	width: 75%;
-      	max-width: 1024px;
-      	min-width: 320px;
+	width: 75%;		/* Chenyang's edit */
+      	max-width: 1024px;	/* Chenyang's edit */
+      	min-width: 320px;	/* Chenyang's edit */
 }
 
 #layout-menu {
@@ -96,6 +96,7 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
+	width: 100%; /* Chenyang's edit */
 }
 
 /* Reduce space if we begin the page with a title. */
