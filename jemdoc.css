@@ -24,8 +24,8 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
-	height: 100vh; /* Chenyang's edit */
-  	overflow-y: auto; /* Chenyang's edit */
+	height: 400px;		/* Chenyang's edit */
+  	overflow-y: auto;	/* Chenyang's edit */
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
