@@ -11,9 +11,6 @@ body {
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
-	width: 75%;		/* Chenyang's edit */
-      	max-width: 1024px;	/* Chenyang's edit */
-      	min-width: 320px;	/* Chenyang's edit */
 }
 
 #layout-menu {
@@ -24,8 +21,6 @@ body {
 	padding-right: 8px;
 	font-size: 1.0em;
 	width: auto;
-	height: 400px;		/* Chenyang's edit */
-  	overflow-y: auto;	/* Chenyang's edit */
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
