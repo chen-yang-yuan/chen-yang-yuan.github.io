@@ -1,3 +1,3 @@
-## How to proposal
+# How to proposal
 
 This is a md file!
