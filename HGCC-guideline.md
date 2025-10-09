@@ -1,8 +1,10 @@
 ---
 layout: default
-title: New Page
+title: HGCC Guidelines
 ---
 
-# Welcome to My New Page
+Login to HGCC:
 
-This page was written in Markdown and will be converted to HTML automatically.
+```bash
+ssh cyuan36@hgcc.emory.edu
+```

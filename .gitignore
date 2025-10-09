@@ -2,3 +2,4 @@
 .DS_Store
 Makefile
 files/.DS_Store
+HGCC-guideline.md
