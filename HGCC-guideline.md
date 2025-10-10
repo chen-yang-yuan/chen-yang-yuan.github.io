@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: HGCC Guidelines
 ---
 
@@ -109,7 +109,7 @@ module available
 
 There is a line indicating the Python version:
 
-```swift
+```
 python/3.11.7-gcc-13.2.0-ljcvqdx
 ```
 
@@ -127,7 +127,7 @@ python3 --version
 
 You should see something like:
 
-```swift
+```
 Python 3.11.7
 ```
 
@@ -186,7 +186,7 @@ sinfo
 
 It will output something like:
 
-```less
+```
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 nodes*    up     30-00:00:0     2  drain node[02,04]
 nodes*    up     30-00:00:0     5  mix   node[01,03,05,09,12]
@@ -203,7 +203,7 @@ sinfo -o "%P %m %G"
 
 The output is:
 
-```sql
+```
 PARTITION MEMORY GRES
 nodes* 1024000 (null)
 ```
@@ -247,7 +247,7 @@ ls -l 1_clean.sh
 
 You should see something like:
 
-```nginx
+```
 -rwxr-xr-x 1 cyuan36 hulab  512 Oct  8 21:42 1_clean.sh
 ```
 
@@ -259,7 +259,7 @@ sbatch 1_clean.sh
 
 You will see something like:
 
-```nginx
+```
 Submitted batch job 487120
 ```
 
